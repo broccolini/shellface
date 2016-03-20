@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Michelle Muller</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<link href="https://npmcdn.com/basscss-basic/index.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>
+
+<body>
+  <div class="table vh-100">
+    <div class="cover table-cell" style="background-image: url(images/michelle.jpg);">
+      <div class="content-width wrap right padding">
+        <h1 class="h1 white">Michelle Muller</h1>
+        <p class="white">
+        Michelle has over 11 years event and marketing experience, having worked in the government, performing arts, tourism and not-for-profit sectors before landing at Milk. Michelle holds a Masters Degree in Management majoring in Event Management from the University of Technology, Sydney and a Bachelor of Business in Human Resources from the Australian Catholic University. If she’s not at work, you might find her eating, hanging out with llamas on the side of a mountain, scuba diving, watching live performances or trying to do the moonwalk. Possibly all at the same time.
+      </p>
+        <p class="white">
+          Michelle is currently Milk’s events producer, where she gets to backflip ninja-style to create event experiences with exceedingly detailed schedules and a phone hanging around her neck.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
