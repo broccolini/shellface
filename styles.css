@@ -11,10 +11,6 @@
   }
 }
 
-.text-yellow {
-  color: #fbf419;
-}
-
 .cover-left {
   background-size: cover;
   /*background-position: left;*/
@@ -40,6 +36,10 @@
 
 .white {
   color: white;
+}
+
+.yellow {
+  color: #fbf419;
 }
 
 .gray-dark {
@@ -74,13 +74,5 @@
 .bg-black { background-color: #000; }
 
 .white-opaque { color: rgba(255, 255, 255, 0.8); }
-
-.bg-opaque {
-  background-color: rgba(140, 140, 140, 0.6);
-}
-
-.border-top-thick {
-  border-top: 2px solid white;
-}
 
 .text-shadow { text-shadow: 0 1px 16px rgba(0, 0, 0, 0.8); }
